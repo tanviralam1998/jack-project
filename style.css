@@ -1,0 +1,71 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+h1,h2,h3{text-transform: capitalize;}
+
+img{
+    width: 100%;
+}
+.link-btn{
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 300;
+    color: white;
+    background-image: linear-gradient(45deg, lightsalmon, #eb4d4b);
+    border-radius: 5px;
+}
+a:hover{
+    color: #fff;
+    cursor: pointer;
+}
+section{
+    height: 80%;
+    margin-bottom: 3rem;
+}
+.top-intro{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+/* about-intro */
+.about-intro{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.work-section{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+.footer-section{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+}
+.intro-content{
+    margin-left: 50px;
+}
+.intro-content h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #eb4d4b;
+    
+}
+.intro-content h2{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 150px 0 20px 0;
+}
+.intro-content h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 100px;
+}
+.intro-content p{
+    font-size: 15px;
+    line-height: 1.5rem;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.footer-section{
+    padding: 20px;
+}
